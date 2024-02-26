@@ -1,0 +1,17 @@
+/* src/components/Seat/Seat.css */
+.seat {
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #007bff;
+}
+
+.seat.blocked {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
